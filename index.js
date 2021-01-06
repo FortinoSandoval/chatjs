@@ -10,7 +10,7 @@ const io = socketio.listen(server);
 const mongoose = require('mongoose');
 
 //db connection
-mongoose.connect('mongodb://forti:win7@ds039674.mlab.com:39674/heroku_1x9bhwp0')
+mongoose.connect(process.env.MONGO_URI)
 .then(db => console.log('db is connected'))
 .catch(err=>console.log(err));
 
