@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/FortinoSandoval/chatjs#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.11.10",
-    "socket.io": "^3.0.5"
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "socket.io": "^2.1.0"
   }
 }
